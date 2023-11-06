@@ -1,0 +1,9 @@
+   0 date > result.txt
+   1 df -h
+   2 df -h >> result.txt
+   3 history | tail -5 >> result.txt
+   4 /proc/cpuinfo grep "vendor" | sort |uniq >> result.txt
+   5 grep "vendor" /proc/cpuinfo | sort |uniq >> result.txt
+   6 nano result.txt
+   7 cat result.txt
+   8 history > history.txt
