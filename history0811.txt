@@ -1,0 +1,15 @@
+   0 > myfirstbashscript.sh
+   1 chmod +x myfirstbashscript.sh 
+   2 ls -la
+   3 nano myfirstbashscript.sh 
+   4 ./myfirstbashscript.sh 
+   5 history > history_file.txt
+
+
+myfirstbashscript.sh:
+
+#!/bin/bash
+USER="Kostiantyn"
+date
+echo "Hello, $USER!"
+pwd
